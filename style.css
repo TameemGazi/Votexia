@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #4c9aff;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.poll-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.poll-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #4c9aff;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.poll-form #addOptionBtn {
+    background-color: #4c9aff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.poll-form #addOptionBtn:hover {
+    background-color: #357cd5;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+.poll-display {
+    margin-top: 40px;
+}
+
+.poll-display h2 {
+    font-size: 1.8rem;
+    color: #4c9aff;
+    text-align: center;
+}
+
+.poll-option {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.poll-option:hover {
+    background-color: #e0e7ff;
+}

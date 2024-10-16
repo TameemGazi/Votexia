@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Poll Creation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Create Your Poll</h1>
+        <p>Engage your audience and capture their opinions in a decentralized way!</p>
+    </header>
+
+    <div class="container">
+        <div class="poll-form">
+            <form id="pollForm">
+                <label for="pollTitle">Poll Title:</label>
+                <input type="text" id="pollTitle" name="pollTitle" placeholder="Enter your poll question..." required>
+
+                <label for="pollOptions">Options:</label>
+                <div id="optionsContainer">
+                    <input type="text" name="option" class="poll-option" placeholder="Option 1" required>
+                    <input type="text" name="option" class="poll-option" placeholder="Option 2" required>
+                </div>
+
+                <button type="button" id="addOptionBtn">Add Option</button>
+
+                <button type="submit" class="submit-btn">Create Poll</button>
+            </form>
+        </div>
+
+        <div id="pollDisplay" class="poll-display">
+            <!-- Poll will be dynamically displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
